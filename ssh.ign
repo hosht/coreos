@@ -5,3 +5,7 @@ passwd:
     - name: core
       ssh_authorized_keys:
         - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICskZp6G2xnSVfqM1vM37SK/Ge26KlSe0dz1FtmNfBQ4
+      groups:
+        - docker
+        - wheel
+        - sudo
